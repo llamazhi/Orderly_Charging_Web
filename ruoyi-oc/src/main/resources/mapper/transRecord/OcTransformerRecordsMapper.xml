@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.oc.admin.transformer.records.mapper.OcTransformerRecordsMapper">
+
+    <resultMap type="com.ruoyi.oc.admin.transformer.records.domain.OcTransformerRecords" id="OcTransformerRecordsResult">
+        <result property="recordId" column="record_id"/>
+        <result property="rcId" column="rc_id"/>
+        <result property="currTime" column="curr_time"/>
+        <result property="currChargingLoad" column="curr_charging_load"/>
+        <result property="createBy" column="create_by"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateBy" column="update_by"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="transformerId" column="transformer_id"/>
+        <result property="currDailyLoad" column="curr_daily_load"/>
+    </resultMap>
+
+
+</mapper>

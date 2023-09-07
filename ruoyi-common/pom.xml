@@ -165,6 +165,12 @@
             <artifactId>ip2region</artifactId>
         </dependency>
 
+        <!-- spring test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

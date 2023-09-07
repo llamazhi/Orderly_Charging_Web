@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.oc.admin.ev.params.mapper.OcElectricalVehicleParametersMapper">
+
+    <resultMap type="com.ruoyi.oc.admin.ev.params.domain.OcElectricalVehicleParameters" id="OcElectricalVehicleParametersResult">
+        <result property="typeId" column="type_id"/>
+        <result property="maxSoc" column="max_soc"/>
+        <result property="normalChargingRate" column="normal_charging_rate"/>
+        <result property="fastChargingRate" column="fast_charging_rate"/>
+        <result property="createBy" column="create_by"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateBy" column="update_by"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.oc.client.records.mapper.OcChargingRecordsMapper">
+
+    <resultMap type="com.ruoyi.oc.client.records.domain.OcChargingRecords" id="OcChargingRecordsResult">
+        <result property="recordId" column="record_id"/>
+        <result property="evId" column="ev_id"/>
+        <result property="csId" column="cs_id"/>
+        <result property="userId" column="user_id"/>
+        <result property="tId" column="t_id"/>
+        <result property="ifUsingFastCharging" column="if_using_fast_charging"/>
+        <result property="remainingSoc" column="remaining_soc"/>
+        <result property="expectedChargingEndTime" column="expected_charging_end_time"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateBy" column="update_by"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="createBy" column="create_by"/>
+        <result property="chargingStartTime" column="charging_start_time"/>
+        <result property="ifUsingOrderlyCharging" column="if_using_orderly_charging"/>
+        <result property="newChargingStartTime" column="new_charging_start_time"/>
+        <result property="expectedLeavingTime" column="expected_leaving_time"/>
+    </resultMap>
+
+
+</mapper>

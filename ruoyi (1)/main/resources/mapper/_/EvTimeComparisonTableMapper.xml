@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi..mapper.EvTimeComparisonTableMapper">
+
+    <resultMap type="com.ruoyi..domain.EvTimeComparisonTable" id="EvTimeComparisonTableResult">
+        <result property="uid" column="uid"/>
+        <result property="evid" column="evid"/>
+        <result property="oldStartTime" column="old_start_time"/>
+        <result property="oldEndTime" column="old_end_time"/>
+        <result property="newStartTime" column="new_start_time"/>
+        <result property="newEndTime" column="new_end_time"/>
+        <result property="leavingTime" column="leaving_time"/>
+    </resultMap>
+
+
+</mapper>

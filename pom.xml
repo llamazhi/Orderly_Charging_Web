@@ -331,6 +331,13 @@
                 <version>${ruoyi-vue-plus.version}</version>
             </dependency>
 
+            <!--  oc模块  -->
+            <dependency>
+                <groupId>com.ruoyi</groupId>
+                <artifactId>ruoyi-oc</artifactId>
+                <version>${ruoyi-vue-plus.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -345,6 +352,7 @@
         <module>ruoyi-extend</module>
         <module>ruoyi-oss</module>
         <module>ruoyi-sms</module>
+        <module>ruoyi-oc</module>
     </modules>
     <packaging>pom</packaging>
 

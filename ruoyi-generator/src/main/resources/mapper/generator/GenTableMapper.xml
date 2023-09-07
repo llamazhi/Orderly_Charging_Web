@@ -95,7 +95,6 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
                     LEFT JOIN pg_namespace n ON n.oid = c.relnamespace
                 WHERE (c.relkind = ANY (ARRAY ['r'::"char", 'p'::"char"]))
                     AND c.relname != 'spatial_%'::text
-                    AND n.nspname = 'public'::name
                     AND n.nspname <![CDATA[ <> ]]> ''::name
             ) list_table
             where table_name NOT LIKE 'xxl_job_%' AND table_name NOT LIKE 'gen_%'
@@ -161,7 +160,6 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
                     LEFT JOIN pg_namespace n ON n.oid = c.relnamespace
                 WHERE (c.relkind = ANY (ARRAY ['r'::"char", 'p'::"char"]))
                     AND c.relname != 'spatial_%'::text
-                    AND n.nspname = 'public'::name
                     AND n.nspname <![CDATA[ <> ]]> ''::name
             ) list_table
             where table_name NOT LIKE 'xxl_job_%' and table_name NOT LIKE 'gen_%'
@@ -213,7 +211,6 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
                     LEFT JOIN pg_namespace n ON n.oid = c.relnamespace
                 WHERE (c.relkind = ANY (ARRAY ['r'::"char", 'p'::"char"]))
                     AND c.relname != 'spatial_%'::text
-                    AND n.nspname = 'public'::name
                     AND n.nspname <![CDATA[ <> ]]> ''::name
             ) list_table
             where table_name NOT LIKE 'xxl_job_%' and table_name NOT LIKE 'gen_%'

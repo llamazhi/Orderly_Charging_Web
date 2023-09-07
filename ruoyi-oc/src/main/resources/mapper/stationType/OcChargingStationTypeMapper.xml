@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.oc.admin.station.types.mapper.OcChargingStationTypeMapper">
+
+    <resultMap type="com.ruoyi.oc.admin.station.types.domain.OcChargingStationType" id="OcChargingStationTypeResult">
+        <result property="typeId" column="type_id"/>
+        <result property="csId" column="cs_id"/>
+        <result property="manufacturer" column="manufacturer"/>
+        <result property="company" column="company"/>
+        <result property="createBy" column="create_by"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateBy" column="update_by"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+
+</mapper>
